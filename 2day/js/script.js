@@ -198,7 +198,6 @@ $(document).ready(function () {
         }
     })
 
-
     // 반복문
     // document.write(1);
     // document.write(1);
@@ -209,23 +208,13 @@ $(document).ready(function () {
     // for 문
     // for(초기값;조건;증감){ 조건이 틀리때까지 실행}
 
-    for (var i = 0; i < 10; i++) {
-        for (var j = 0; j = 3; j++) {
-            document.write(i);
-            document.write(j);
+    for (var i = 2; i < 10; i++) {
+        for (var j = 1; j < 10; j++) {
+            var multipy = i * j;
+            document.write(i + "x" + j + "=" + multipy + "<br>");
         }
-        document.write('<br>');
     }
 
-
-    /*
-     document.write(2);
-     document.write('x');
-     document.write(i);
-     document.write('=');
-     document.write(i * 2);
-     document.write('<br>');
-    */
 });
 
 
