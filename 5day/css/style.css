@@ -1,0 +1,19 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;;
+}
+
+.item, .box {
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    margin: 20px;
+}
+
+.add {
+    background-color: red;
+    transform: rotateX(360deg);
+    transform-origin: top;
+    transition: all 1s ease;
+}

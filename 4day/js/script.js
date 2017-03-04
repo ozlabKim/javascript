@@ -182,11 +182,11 @@ console.log(adder(3,5));
 $(document).ready(function () {
 
     var doc = document;
-    function productSelect(ing,text) {
+    function productSelect(img,text) {
         var product = doc.querySelector('.product');
         var title = doc.querySelector('.title');
 
-        product.style.backgroundPosition=ing+'px';
+        product.style.backgroundPosition=img+'px';
         title.innerHTML = text;
     }
 
