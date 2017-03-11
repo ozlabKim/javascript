@@ -1,0 +1,42 @@
+.event1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 30px;
+}
+
+.ani {
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.event1 {
+    transition: all .4s ease;
+    position: fixed;
+}
+
+.up {
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-20px);
+}
+
+
+.hello {
+    height: 4000px;
+}
+
+.color {
+    background-color: red;
+}
+
+.nav {
+    transform: translateX(-400px);
+    transition: all .4s ease;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
