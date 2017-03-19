@@ -1,0 +1,67 @@
+button {
+    padding: 10px 20px;
+}
+.exam1, .exam2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.watch {
+    position: relative;
+}
+
+.watch:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.watch li {
+    float: left;
+    text-align: center;
+}
+.watch li img {
+    width: 80%;
+}
+
+.control div {
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.prev {
+    left: -64px;
+}
+
+.next {
+    right: -64px;
+}

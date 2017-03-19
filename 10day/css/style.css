@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 20px;
+    position: relative;
+}
+
+.box2 {
+    background-color: darkblue;
+}
+
+.box3 {
+    background-color: darkseagreen;
+}

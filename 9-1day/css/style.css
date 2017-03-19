@@ -1,0 +1,15 @@
+/*
+.slider {
+    width: 1000px;
+    margin: 30px auto;
+}
+*/
+
+.item {
+    height: 240px;
+    background-color: yellow;
+    color: #000;
+    text-align: center;
+    line-height: 240px;
+    font-size: 40px;
+}
