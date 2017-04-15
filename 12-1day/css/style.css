@@ -1,0 +1,45 @@
+* {margin: 0; padding: 0;}
+li {list-style: none}
+a {text-decoration: none;}
+body {font-family: Arial;}
+h1 {margin: 0 auto; width: 167px; height:200px;}
+nav {background-color: #000; position: absolute; width: 100%;}
+nav ul {width: 600px; margin: 0 auto}
+nav ul:after {content: ""; display: block; clear: both}
+nav li {float: left; width: 20%; }
+nav li a {color: #fff; text-align: center; display: block; padding: 20px; font-size: 14px;}
+.top {position: absolute; top: 0; right:0; background-color: darkred; color: #fff; padding: 20px; font-size: 14px;}
+nav li.on a {background-color: darkred}
+section {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+}
+
+#section01 {
+    background-image: url(../img/image01.jpg);
+}
+#section02 {
+    background-image: url(../img/image02.jpg);
+}
+#section03 {
+    background-image: url(../img/image03.jpg);
+}
+#section04 {
+    background-image: url(../img/image04.jpg);
+}
+#section05 {
+    background-image: url(../img/image05.jpg);
+}
+
+footer {
+    height: 500px; text-align: center; padding: 50px 0;
+}
+
+/* 자바스크립트 이벤트 통해서 정의될 기능에 대한 스타일 */
+nav.fixed {
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+}

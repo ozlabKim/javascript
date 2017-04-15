@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1050px;
+    margin: 20px auto;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.filter {
+    float: left;
+}
+
+.filter li {
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    background-color: #8db7de;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.filter li input {
+    vertical-align: middle;
+}
+
+.filter li label {
+    display: block;
+}
+
+.content {
+    margin: 15px 0;
+    position: relative;
+}
+
+.content .card {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #7bb383;
+    margin: 5px;
+    top: 0;
+    left: 0;
+    transition: all ease .4s;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+}

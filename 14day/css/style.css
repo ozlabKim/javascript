@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+.slider {
+    width: 800px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.slickSlider li.box1 {
+    background-color: darkgoldenrod;
+}
+.slickSlider li.box2 {
+    background-color: darkseagreen;
+}
+.slickSlider li.box3 {
+    background-color: darkcyan;
+}
+
+.slickSlider li {
+    color: #fff;
+    text-align: center;
+}
+
+.slickSlider li p {
+    float: left;
+    font-size: 60px;
+    font-family: Impact;
+    line-height: 300px;
+    width: 100px;
+}
+
+.slickSlider li .item {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.item p {
+    position: relative;
+    top: -50px;
+    opacity: 0;
+}
